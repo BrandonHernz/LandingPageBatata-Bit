@@ -13,7 +13,11 @@
   </head>
   <body>
     <header class="header header--background">
-      <img class="header__logo" src="./assets/images/logotipo.svg" alt="" />
+      <img
+        class="header__logo"
+        src="./assets/images/logotipo.svg"
+        alt="Batatabit Logo"
+      />
       <div class="header__content">
         <h1 class="header__title">
           La próxima revolución en el intercambio de criptomonedas.
@@ -27,8 +31,55 @@
         ></a>
       </div>
     </header>
-    <main>
-      <section></section>
+    <main class="main">
+      <section class="container-exchange">
+        <div class="container-exchange__image"></div>
+        <div class="container-exchange__content">
+          <h2 class="container-exchange__title">
+            Visibilizamos todas las tasas de cambio.
+          </h2>
+          <p class="container-exchange__description">
+            Traemos información en tiempo real de las casas de cambio y las
+            monedas más importantes del mundo.
+          </p>
+        </div>
+        <section class="container-tables">
+          <div class="table-coins">
+            <p class="table-coins__title">Monedas</p>
+            <div class="container-coins">
+              <table>
+                <tr>
+                  <td class="table__col-left table__top-left">Bitcoin</td>
+                  <td class="table__col-right table__top-right">
+                    $ 1.96 <span class="down"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table__col-left">Ethereum</td>
+                  <td class="table__col-right table__col-right--up">
+                    $ 0.07 <span class="up"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table__col-left">Ripple</td>
+                  <td class="table__col-right table__col-right--down">
+                    $ 2.15 <span class="down"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table__col-left table__bottom-left">Stellar</td>
+                  <td class="table__col-right table__bottom-right">
+                    $ 4.96 <span class="down"></span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="table-coins__date">
+              <p><b>Actualizado:</b> 19 Julio 23:45</p>
+            </div>
+          </div>
+        </section>
+      </section>
       <section></section>
       <section></section>
       <section></section>
